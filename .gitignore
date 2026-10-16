@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# MediaPipe model, downloaded automatically on first run
+hand_landmarker.task
+
+# macOS Finder metadata
+.DS_Store

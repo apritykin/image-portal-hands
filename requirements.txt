@@ -1,0 +1,4 @@
+# MediaPipe also installs OpenCV (opencv-contrib-python) and NumPy.
+# Don't add opencv-python on top: two OpenCV packages conflict over `cv2`.
+# 1.0.x currently crashes on macOS (Metal "Service is unavailable"), so pin 0.10.35.
+mediapipe==0.10.35
